@@ -26,9 +26,9 @@
   
 # Профіль соціальної мережі
 
-Необхідно створити компонент `<Profile>`, за допомогою якого ми могли б відображати інформацію про користувача соціальної мережі. Дані про користувача лежать у файлі [user.json](./user.json).
+Необхідно створити компонент `<Profile>`, за допомогою якого ми могли б відображати інформацію про користувача соціальної мережі. Дані про користувача лежать у файлі [user.json](https://raw.githubusercontent.com/goitacademy/react-homework/master/homework-01/social-profile/user.json).
 
-![Прев'ю компонента Profile](./preview.png)
+![Прев'ю компонента Profile](https://raw.githubusercontent.com/goitacademy/react-homework/master/homework-01/social-profile/preview.png) 
 
 ## Опис компонента `<Profile>`
 
@@ -88,9 +88,9 @@ import user from 'путь/к/user.json;
 
 # Секція статистики
 
-Створити компонент `<Statistics>`, який би відображав статистику з переданих пропсів. Наприклад, завантаження у хмару за типом файлів, відвідування веб-сторінки користувачами різних країн, фінансові витрати тощо. Дані про статистику лежать у файлі [data.json](./data.json).
+Створити компонент `<Statistics>`, який би відображав статистику з переданих пропсів. Наприклад, завантаження у хмару за типом файлів, відвідування веб-сторінки користувачами різних країн, фінансові витрати тощо. Дані про статистику лежать у файлі [data.json](https://raw.githubusercontent.com/goitacademy/react-homework/master/homework-01/statistics/data.json).
 
-![Прев'ю компонента Statistics](./preview.jpg)
+![Прев'ю компонента Statistics](https://raw.githubusercontent.com/goitacademy/react-homework/master/homework-01/statistics/preview.jpg)
 
 ## Опис компонента
 
@@ -138,9 +138,9 @@ import data from '/путь/к/data.json';
 
 # Список друзів
 
-Необхідно створити компонент `<FriendList>`, за допомогою якого ми могли б відображати інформацію про друзів користувача. Інформація про друзів зберігається у файлі [friends.json](./friends.json).
+Необхідно створити компонент `<FriendList>`, за допомогою якого ми могли б відображати інформацію про друзів користувача. Інформація про друзів зберігається у файлі [friends.json](https://raw.githubusercontent.com/goitacademy/react-homework/master/homework-01/friend-list/friends.json).
 
-![Прев'ю компонента FriendList](./preview.jpg)
+![Прев'ю компонента FriendList](https://raw.githubusercontent.com/goitacademy/react-homework/master/homework-01/friend-list/preview.jpg)
 
 ## Опис компонента `<FriendList>`
 
@@ -186,9 +186,9 @@ import friends from 'путь/к/friends.json';
 
 Необхідно створити компонент історії транзакцій в особистому кабінеті інтернет-банку.
 
-![Прев'ю компонента TransactionHistory](./preview.jpg)
+![Прев'ю компонента TransactionHistory](https://raw.githubusercontent.com/goitacademy/react-homework/master/homework-01/transaction-history/preview.jpg)
 
-Дані для списку доступні у форматі JSON у файлі [transactions.json](./transactions.json). Це масив об'єктів, кожен об'єкт описує одну транзакцію з наступними властивостями:
+Дані для списку доступні у форматі JSON у файлі [transactions.json](https://raw.githubusercontent.com/goitacademy/react-homework/master/homework-01/transaction-history/transactions.json). Це масив об'єктів, кожен об'єкт описує одну транзакцію з наступними властивостями:
 
 - `id` — унікальний ідентифікатор транзакції
 - `type` — тип транзакції
