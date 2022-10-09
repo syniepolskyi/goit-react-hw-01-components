@@ -1,7 +1,20 @@
 # goit-react-hw-01-components
+
+Старт проєкту, використовуючи термінал
+```
+% node -v
+v14.18.3
+
+% npm i
+/.../
+
+% npm start
+...
+Local:            http://localhost:3000/goit-react-hw-01-components
+```
+
 Використовується
 [шаблон React-проекту](https://github.com/goitacademy/react-homework-template#readme)
-як стартову точку своєї програми.
 
 # Критерії приймання
 
