@@ -30,12 +30,12 @@ export const Profile = ({
       </DescriptionStyled>
       {stats ?
       <ProfileStatListStyled>
-      {Object.entries(stats).map(([key,val]) => {
+      {Object.entries(stats).map(([key,val]) => 
           <StatsItem key={key}>
           <ProfileStatsLabel>{key}</ProfileStatsLabel>
           {val ? <Quantity>{val}</Quantity> : ''}
           </StatsItem>
-      })}
+      )}
       </ProfileStatListStyled>
       : ''}
     </ProfileStyled>
