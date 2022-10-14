@@ -6,7 +6,7 @@ import {
   TransactionData,
 } from './TransactionHistory.styled';
 
-export const TransactionHistory = ({ items = [{}] }) => {
+export const TransactionHistory = ({ items }) => {
   return (
     <Transactions>
       <thead>

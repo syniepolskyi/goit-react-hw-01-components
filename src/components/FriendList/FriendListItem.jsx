@@ -8,10 +8,10 @@ import {
 } from './FriendList.styled';
 
 const FriendListItem = ({
-  id = 0,
-  name = 'not-found',
-  avatar = 'not-found',
-  isOnline = false,
+  id,
+  name,
+  avatar,
+  isOnline,
 }) => {
   return id ? (
     <FriendListItemStyled key={id}>
