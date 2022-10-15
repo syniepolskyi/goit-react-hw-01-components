@@ -17,7 +17,7 @@ const FriendListItem = ({
     <FriendListItemStyled key={id}>
       <IsOnlineIndicator isOnline={isOnline} />
       <AvatarImg src={avatar} alt={name} />
-      {name ? <FriendName>{name}</FriendName> : ''}
+      <FriendName>{name}</FriendName>
     </FriendListItemStyled>
   ) : (
     ''

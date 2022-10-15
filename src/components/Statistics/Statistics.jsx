@@ -17,13 +17,11 @@ export const Statistics = ({
       {(title ? <SectionTitle>{title}</SectionTitle> : '')}
       <StatListStyled>
         {stats.map(({id, label, percentage}) => {
-          return id ? (
+          return (
             <StatItem key={id}>
               <StatItemLabel>{label}</StatItemLabel>
               <StatItemPercentage>{percentage}&#37;</StatItemPercentage>
             </StatItem>
-          ) : (
-            ''
           )
         })}
       </StatListStyled>

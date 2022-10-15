@@ -20,14 +20,12 @@ export const TransactionHistory = ({ items }) => {
       {items ? (
         <tbody>
           {items.map(({ id, type, amount, currency }) => {
-            return id ? (
+            return (
               <TransactionRow key={id}>
                 <TransactionData>{type}</TransactionData>
                 <TransactionData>{amount}</TransactionData>
                 <TransactionData>{currency}</TransactionData>
               </TransactionRow>
-            ) : (
-              ''
             );
           })}
         </tbody>

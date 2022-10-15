@@ -24,20 +24,18 @@ export const Profile = ({
     <ProfileStyled>
       <DescriptionStyled>
         <Avatar avatar={avatar} alt={username} />
-        {username ? <UserName>{username}</UserName> : ''}
-        {tag ? <TagName>&#64;{tag}</TagName> : ''}
-        {location ? <Location>{location}</Location> : ''}
+        <UserName>{username}</UserName>
+        <TagName>&#64;{tag}</TagName>
+        <Location>{location}</Location>
       </DescriptionStyled>
-      {stats ?
       <ProfileStatListStyled>
       {Object.entries(stats).map(([key,val]) => 
           <StatsItem key={key}>
           <ProfileStatsLabel>{key}</ProfileStatsLabel>
-          {val ? <Quantity>{val}</Quantity> : ''}
+          <Quantity>{val}</Quantity>
           </StatsItem>
       )}
       </ProfileStatListStyled>
-      : ''}
     </ProfileStyled>
   );
 };
